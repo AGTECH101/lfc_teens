@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'lfc_teens_project.settings')  # CHANGED to match your project
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'project.settings')  # CHANGED to match your project
 
 application = get_wsgi_application()
